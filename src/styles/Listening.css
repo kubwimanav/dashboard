@@ -1,0 +1,26 @@
+.listening-card-card{
+    transform: translate(20px,-160px);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 1px;
+    background-color: #282c34;
+    position: absolute;
+    z-index: 888;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.report-paragh{
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    font-size: 12px;
+    border-bottom: 1px solid white;
+}
+@media (max-width:1700px) {
+    .report{
+    transform: translate(20px,110px);
+}
+    
+}

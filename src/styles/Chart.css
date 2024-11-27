@@ -1,0 +1,509 @@
+
+.chart-chartcard{
+    display: flex;
+    gap: 90px;
+}
+.Chart-card-1{
+    display: flex;
+    gap: 17px;
+}
+
+.chartcard{
+    display: flex;
+    flex-direction: column;
+    width: 18.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+     background-color:rgb(37,43,49);
+}
+.responsivecontainer{
+    width: 67rem;
+    height: 200px;
+    background-color:rgb(37,43,49) ;
+    border-radius: 10px;
+}
+
+.chartimage{
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+}
+.chart-paragraph{
+    display: flex;
+    gap: 140px;
+}
+.chart-paragraph2{
+    font-size: 11px;
+    color: rgb(167, 164, 164);
+}
+.chart-paragraph1{
+ font-size: 12px;
+}
+.chart-paragraph2-view{
+    font-size: 12px;
+    text-decoration: none;
+    color: #28981E;
+}
+.chart-div1{
+    display: flex;
+    gap: 135px;
+
+}
+.chart-car-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+} 
+.barsize{
+    font-size: 15px;
+}
+
+@media (max-width:1700px) {
+   .chart-chartcard{
+    display: flex;
+    gap: 70px;
+}
+
+.responsivecontainer{
+    width: 57rem;
+    height: 200px;
+    background-color:rgb(37,43,49) ;
+    border-radius: 10px;
+}
+
+
+
+
+.chartcard{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    padding: 15px;
+    border-radius: 10px;
+    gap: 15px;
+     background-color:rgb(37,43,49);
+}
+.Chart-card-1{
+    display: flex;
+    gap: 20px;
+}
+.chart-div1{
+    display: flex;
+    gap:60px;
+
+}
+.chart-paragraph{
+    display: flex;
+    gap: 60px;
+}
+
+}
+@media (max-width:1500px) {
+
+    .chart-chartcard{
+    display: flex;
+    gap: 60px;
+}
+.responsivecontainer{
+    width: 50rem;
+    height: 200px;
+    background-color:rgb(37,43,49) ;
+    border-radius: 10px;
+}
+
+
+
+
+.chartcard{
+    display: flex;
+    flex-direction: column;
+    width: 14rem;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+     background-color:rgb(37,43,49);
+}
+.Chart-card-1{
+    display: flex;
+    gap: 10px;
+}
+.chartimage{
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+}
+.chart-paragraph{
+    display: flex;
+    gap: 42px;
+}
+.chart-paragraph2{
+    font-size: 11px;
+    color: rgb(167, 164, 164);
+}
+.chart-paragraph1{
+ font-size: 12px;
+}
+.chart-paragraph2-view{
+    font-size: 12px;
+    text-decoration: none;
+    color: #28981E;
+}
+.chart-div1{
+    display: flex;
+    gap: 23px;
+}
+.chart-car-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+    
+}
+
+@media (max-width:1340px) {
+   .chart-chartcard{
+    display: flex;
+    gap: 50px;
+}
+.responsivecontainer{
+    width: 44rem;
+    height: 200px;
+    background-color:rgb(37,43,49) ;
+    border-radius: 10px;
+}
+
+
+
+
+.chartcard{
+    display: flex;
+    flex-direction: column;
+    width: 11.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+     background-color:rgb(37,43,49);
+}
+.Chart-card-1{
+    display: flex;
+    gap: 10px;
+}
+
+}
+
+
+
+
+@media (max-width:1200px) {
+    .chart-chartcard{
+    display: flex;
+    gap: 25px;
+}
+.responsivecontainer{
+    width: 612px;
+    height: 190px;
+    background-color:rgb(37,43,49) ;
+    border-radius: 10px;
+}
+.chartcard{
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    gap: 10px;
+     background-color:rgb(37,43,49);
+}
+
+}
+
+@media (max-width:1050px) {
+    .chart-chartcard{
+    display: flex;
+    gap: 25px;
+}
+.responsivecontainer{
+    width: 520px;
+    height: 190px;
+    background-color:rgb(37,43,49) ;
+    border-radius: 10px;
+}
+.chartcard{
+    display: flex;
+    flex-direction: column;
+    width: 11rem;
+    padding-top: 7px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+    border-radius: 10px;
+    gap: 10px;
+     background-color:rgb(37,43,49);
+}
+.chart-paragraph{
+    display: flex;
+    gap: 35px;
+}
+.Chart-card-1{
+    display: flex;
+    gap: 5px;
+}
+.chart-paragraph1{
+ font-size: 11px;
+}
+.chart-paragraph2-view{
+    font-size: 11px;
+    text-decoration: none;
+    color: #28981E;
+}
+.barsize{
+    font-size: 10px;
+}
+}
+
+
+
+@media (max-width:950px) {
+    .chart-chartcard{
+    display: flex;
+    gap: 25px;
+}
+.responsivecontainer{
+    width: 432px;
+    height: 170px;
+    background-color:rgb(37,43,49) ;
+    border-radius: 10px;
+}
+.chartcard{
+    display: flex;
+    flex-direction: column;
+    width: 9rem;
+    padding-top: 7px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 10px;
+    gap: 5px;
+     background-color:rgb(37,43,49);
+}
+.chart-paragraph{
+    display: flex;
+    gap: 20px;
+}
+.Chart-card-1{
+    display: flex;
+    gap: 3px;
+}
+.chart-paragraph1{
+ font-size: 10px;
+}
+.chart-paragraph2-view{
+    font-size: 10px;
+    text-decoration: none;
+    color: #28981E;
+}
+.chart-paragraph2{
+    font-size: 10px;
+    color: rgb(167, 164, 164);
+}
+.chart-div1{
+    display: flex;
+    gap: 15px;
+}
+}
+@media (max-width:850px) {
+.chart-chartcard{
+    display: flex;
+    gap: 13px;
+} 
+}
+@media (max-width:800px) {
+.chart-chartcard{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+} 
+
+.chartcard{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    gap: 10px;
+     background-color:rgb(37,43,49);
+}
+.chart-paragraph{
+    display: flex;
+    gap: 215px;
+}
+.Chart-card-1{
+    display: flex;
+    gap: 50px;
+}
+.chart-paragraph1{
+ font-size: 13px;
+}
+.chart-paragraph2-view{
+    font-size: 12px;
+    text-decoration: none;
+    color: #28981E;
+}
+
+.chart-div1{
+    display: flex;
+    gap: 235px;
+
+}
+
+}
+
+@media (max-width:480px) {
+
+.chart-chartcard{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+} 
+.responsivecontainer{
+    width: 320px;
+    height: 170px;
+    background-color:rgb(37,43,49) ;
+    border-radius: 10px;
+}
+.chartcard{
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    gap: 10px;
+     background-color:rgb(37,43,49);
+}
+.chart-paragraph{
+    display: flex;
+    gap: 100px;
+}
+.Chart-card-1{
+    display: flex;
+    gap: 50px;
+}
+.chart-paragraph1{
+ font-size: 13px;
+}
+.chart-paragraph2-view{
+    font-size: 12px;
+    text-decoration: none;
+    color: #28981E;
+}
+
+.chart-div1{
+    display: flex;
+    gap: 120px;
+
+}
+
+}
+@media (max-width:360px) {
+
+.chart-chartcard{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+} 
+.responsivecontainer{
+    width: 260px;
+    height: 150px;
+    background-color:rgb(37,43,49) ;
+    border-radius: 10px;
+}
+.chartcard{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    gap: 10px;
+     background-color:rgb(37,43,49);
+}
+.chart-paragraph{
+    display: flex;
+    gap: 50px;
+}
+.Chart-card-1{
+    display: flex;
+    gap: 20px;
+}
+.chart-paragraph1{
+ font-size: 13px;
+}
+.chart-paragraph2-view{
+    font-size: 12px;
+    text-decoration: none;
+    color: #28981E;
+}
+
+.chart-div1{
+    display: flex;
+    gap: 50px;
+
+}
+
+}
+
+@media (max-width:290px) {
+.responsivecontainer{
+    width: 250px;
+    height: 150px;
+    background-color:rgb(37,43,49) ;
+    border-radius: 10px;
+}
+.chartcard{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    gap: 10px;
+     background-color:rgb(37,43,49);
+}
+.chart-paragraph{
+    display: flex;
+    gap: 50px;
+}
+.Chart-card-1{
+    display: flex;
+    gap: 20px;
+}
+.chart-paragraph1{
+ font-size: 13px;
+}
+.chart-paragraph2-view{
+    font-size: 12px;
+    text-decoration: none;
+    color: #28981E;
+}
+
+.chart-div1{
+    display: flex;
+    gap: 50px;
+
+}
+
+}

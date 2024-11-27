@@ -1,0 +1,99 @@
+.navbar{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    padding: 7px;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(37,43,49);
+   
+}
+
+.bar{
+    font-size: 30px;
+}
+.profile1-nav p{
+    margin-top: 20px;
+    height: 13px;
+}
+.profile1-nav{
+    font-size: 10px;
+
+    display: flex;
+    gap: 2px;
+}
+
+    
+
+.profilenav-header-para{
+    display: flex; 
+    gap: 2px;
+}
+.profile-header-para1{
+    color: rgb(51,93,184);
+    border-bottom: 1px solid rgb(51,93,184);
+ 
+}
+.profile-header-para2{
+    color: #28981E;
+ border-bottom: 1px solid #28981E;
+ 
+}
+.profile-nav{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+     width: 50px;
+     background-image: url("/7xm 8.png");
+       background-size: cover; 
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 85%;
+     border-bottom: 3px solid rgb(51,93,184);
+     border-top: 3px solid #28981E;
+     border-left: 3px solid #28981E;
+     border-right: 3px solid rgb(51,93,184);
+     border-radius: 50%;
+     height: 50px;
+}
+.profile-nav img{
+    width: 40px;
+    height: 40px;
+   
+}
+@media (min-width:650px) {
+    .navsearch{
+        display: none;
+    }
+}
+@media (max-width:330px) {   
+
+
+.profile-nav{
+     width: 45px;
+     height: 45px;
+}
+.profile-nav img{
+    width: 35px;
+    height: 35px;
+   
+}
+.profile1-nav{
+    font-size: 8px;
+    display: flex;
+    gap: 1px;
+}
+.bar{
+    font-size: 20px;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    padding: 7px 0px 7px 0px;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(37,43,49);
+   
+}
+}

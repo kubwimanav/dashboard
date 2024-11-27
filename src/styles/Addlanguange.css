@@ -1,0 +1,100 @@
+.languange-card{
+    width: 35rem;
+    padding: 15px 50px 15px 50px;
+    border-radius: 10px;
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.languange-table{
+    border: 1px solid white;
+}
+.languange-table td{
+       border: 1px solid white;
+ 
+}
+
+.languange-card button{
+    width: 15rem;
+    border: none;
+    border-radius: 5px;
+    height: 2.5rem;
+    color: white;
+    background-color: rgb(40, 170, 40);
+}
+@media (max-width:1700px) {
+    .languange-card{
+    width: 32rem;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.languange-table img{
+    width: 2rem;
+};
+
+}
+
+@media (max-width:480px) {
+    .languange-card{
+    width: 17rem;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.languange-table{
+    border: 1px solid white;
+}
+.languange-table td{
+       border: 1px solid white;
+ 
+}
+
+.languange-card button{
+    width: 15rem;
+    border: none;
+    border-radius: 5px;
+    height: 2.5rem;
+    color: white;
+    background-color: rgb(40, 170, 40);
+}
+}
+
+@media (max-width:380px) {
+    .languange-card{
+    width: 17.5rem;
+    padding: 10px;
+}
+
+.languange-table{
+    border: 1px solid white;
+}
+.languange-table td{
+       border: 1px solid white;
+ 
+}
+
+.languange-card button{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+ 
+}
+}
+@media (max-width:320px) {
+    .languange-card{
+    width: 15.5rem;
+   
+}
+
+}

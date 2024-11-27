@@ -1,0 +1,159 @@
+
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+
+.addcar{
+    box-shadow: 0px 0px 1px;
+    background-color: #282c34;
+    position: absolute;
+    display: flex;
+    padding: 15px 50px 15px 50px ;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.addcar-iconn{
+  font-weight: bold;
+  background-color: rgb(40, 170, 40);
+  border-radius: 5px;
+  font-size: 30px;
+
+}
+
+.addcar-iconn{
+    transform: translate(80px,-28px);
+      
+}
+.addcar-paragragh-icon{
+    display: flex;
+    gap: 90px;
+}
+.addcar-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.label-input-addcar{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.label-input-date{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.addcar-button{
+    width: 70%;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(40, 170, 40);
+
+}
+
+.label-input-addcar input{
+   padding: 8px 30px 8px 30px;
+   border: none;
+   color: #282c34;
+   border-radius: 5px;
+}
+
+.label-input-date input{
+      padding: 7px 53px 8px 53px;
+      border: none;
+    color: #282c34;
+    border-radius: 5px;
+ 
+}
+.label-input-addcar label{
+    font-size: 12px;
+}
+
+.label-input-date label{
+    font-size: 12px;
+}
+
+@media (max-width:768px) {
+    .addcar{
+    margin-left: 5rem;
+    box-shadow: 0px 0px 1px;
+    background-color: #282c34;
+    position: absolute;
+    z-index: 888;
+    display: flex;
+    padding: 15px 50px 15px 50px ;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+}
+@media (max-width:480px) {
+        .addcar{
+    margin-left: 1rem;
+    padding: 15px 20px 15px 20px ;
+    
+}
+.addcar-iconn{
+    transform: translate(60px,-28px);
+      
+}
+}
+
+@media (max-width:330px) {
+        .addcar{
+    margin-left: 0rem;
+    padding: 15px 20px 15px 20px ;
+    
+}
+.addcar-iconn{
+    transform: translate(50px,-28px);
+      
+}
+
+.label-input-addcar input{
+   padding: 8px 20px 8px 20px;
+}
+
+.label-input-date input{
+      padding: 7px 43px 8px 43px;
+ 
+}
+}
+
+@media (max-width:300px) {
+        .addcar{
+    margin-left: 0rem;
+    padding: 15px 20px 15px 20px ;
+    
+}
+.addcar-iconn{
+    transform: translate(30px,-28px);
+      
+}
+
+.label-input-addcar input{
+   padding: 8px 0px 8px 0px;
+}
+
+.label-input-date input{
+      padding: 8px 25px 8px 25px;
+ 
+}
+}

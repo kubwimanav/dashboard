@@ -1,0 +1,252 @@
+.login{
+    min-height: 100vh;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(37,43,49);
+}
+
+.profile-loginprofile{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+     width: 70px;
+     background-image: url("/7xm 8.png");
+     background-size: cover; 
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 85%;
+     background-position: center;
+     border-bottom: 7px solid rgb(51,114,255);
+     border-top: 7px solid rgb(58,181,74);
+     border-left: 7px solid rgb(58,181,74);
+     border-right: 7px solid rgb(51,114,255);
+     border-radius: 50%;
+     height: 70px;
+}
+.profile-loginprofile img{
+    width: 50px;
+    height: 50px;
+   
+}
+table thead{
+    z-index: 888;
+}
+.profile1-login{
+    display: flex;
+    gap: 2px;
+}
+
+.profile1-login p{
+    margin-top: 30px;
+    height: 20px;
+    font-size: 14px;
+}
+.profile-login-para{
+    display: flex; 
+    gap: 2px;
+}
+.profile-login-para1{
+    font-weight: bold;
+    color: rgb(51,114,255);
+    border-bottom: 1px solid rgb(51,114,255);
+ 
+}
+.profile-login-para2{
+    font-size: 15px;
+    font-weight: bold;
+    color: #28981E;
+    border-bottom: 1px solid #28981E;
+ 
+}
+
+
+.login-log-image-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.login-log-image-paragraph1{
+    display: flex;
+    gap: 2px;
+}
+.login-logo-image-paragraph-car{
+    color: #28981E;
+}
+.login-log-image{
+    background-color: rgb(101,101,117);
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    border-radius: 30px;
+    height: 100%;
+    padding:  40px 70px 40px 70px;
+}
+.loginimage{
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    height: 12rem;
+}
+
+
+@media (max-width:768px) {
+    .login{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(37,43,49);
+}
+
+
+.profile1-login{
+    display: flex;
+    gap: 2px;
+}
+
+.profile1-login p{
+    margin-top: 16px;
+     height: 20px;
+    font-size: 17px;
+}
+.profile-login-para{
+    margin-top: 15px;
+    display: flex; 
+    gap: 2px;
+}
+.profile-login-para1{
+
+    font-weight: bold;
+    color: rgb(69,109,203);
+    border-bottom: 1px solid rgb(51,93,184);
+ 
+}
+.profile-login-para2{
+    font-weight: bold;
+    color: #28981E;
+    border-bottom: 1px solid #28981E;
+ 
+}
+
+
+.login-log-image-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.login-log-image-paragraph1{
+    display: flex;
+    gap: 2px;
+}
+.login-logo-image-paragraph-car{
+    color: #28981E;
+}
+.login-log-image{
+    background-color: rgb(101,101,117);
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    border-radius: 30px;
+    height: 100%;
+    padding:  10px 20px 10px 20px;
+}
+.loginimage{
+    width: 22rem;
+    display: flex;
+    align-items: center;
+    height: 15rem;
+}
+.logout-icon{
+    display: none;
+}
+.logout{
+    padding: 7px 20px 7px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28981E;
+}
+.logout:hover{
+    color: #28981E;
+    background-color: white;
+}
+}
+
+@media (max-width:480px) {
+    .login{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(37,43,49);
+}
+
+
+.profile1-login{
+    display: flex;
+    gap: 2px;
+}
+
+.profile1-login p{
+    margin-top: 16px;
+    height: 20px;
+    font-size: 14px;
+}
+.profile-login-para{
+    display: flex; 
+    gap: 2px;
+}
+.profile-login-para1{
+    font-weight: bold;
+    color: rgb(69,109,203);
+    border-bottom: 1px solid rgb(51,93,184);
+ 
+}
+.profile-login-para2{
+    font-size: 15px;
+    font-weight: bold;
+    color: #28981E;
+    border-bottom: 1px solid #28981E;
+ 
+}
+
+
+.login-log-image-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.login-log-image-paragraph1{
+    display: flex;
+    gap: 2px;
+}
+.login-logo-image-paragraph-car{
+    color: #28981E;
+}
+.login-log-image{
+    background-color: rgb(101,101,117);
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    border-radius: 30px;
+    height: 100%;
+    padding:  10px 20px 10px 20px;
+}
+.loginimage{
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    height: 5rem;
+}
+}

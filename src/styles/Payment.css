@@ -1,0 +1,270 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+
+
+.custom-table-payment {
+  background-color: rgb(52,60,69);
+ border-collapse: collapse;
+ display: flex;
+ border-radius: 10px;
+ padding: 1px 0px 1px 0px;
+ flex-direction: column;
+ justify-content: center;
+}
+ 
+ .custom-table-payment td {
+     font-size: 13px;
+    padding: 7px 50px 7px 53px;
+   
+}
+.head
+{
+    background-color: #28981E;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+.head th{
+    padding: 9px 64px 9px 50px;
+    font-size: 14px;
+
+}
+
+
+
+
+.image {
+    width: 100px;
+    height: 100px;
+}
+.tablepaymentparagraph{
+    width: 92rem;
+    display: flex;
+    justify-content: space-between;
+}
+.paragraphtable2{
+    display: flex;
+
+    gap: 5px ;
+    align-items: center;
+    background-color: #28981E;
+    border-radius: 5px;
+    padding: 6px;
+}
+.button-company{
+ background-color: #28981E;
+ border: none;
+    border-radius: 5px;
+    padding: 6px;   
+}
+
+.paragraphtable2 p{
+    font-size: 13px;
+}
+.dataimage{
+    width: 25px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.status-completed {
+ background-color: #28981E;
+ display: flex;
+ justify-content: center;
+ border-radius: 7px;
+    width: 25%;
+    padding: 2px 10px 2px 10px ;
+  color: white; /* Ensures the text is visible */
+}
+
+.status-inprogress{
+  background-color: #D6E7F5;
+    width: 25%;
+    display: flex;
+ justify-content: center;
+ border-radius: 7px;
+    padding: 2px 10px 2px 10px ;
+  color: #1A8FF4; /* Ensures the text is visible */
+}
+
+.status-Cancelled {
+  background-color:#F4E3E3;
+   width: 25%;
+    display: flex;
+ justify-content: center;
+ border-radius: 7px;
+    padding: 2px 10px 2px 10px ;
+  color: #FF0000; /* Ensures the text is visible */
+}
+
+@media (max-width:1700px) {
+    
+ .custom-table-payment td {
+     font-size: 13px;
+     padding: 17px;
+   
+}
+.head
+{
+    background-color: #28981E;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+.head th{
+    padding: 9px 55px 9px 41px;
+    font-size: 14px;
+
+} 
+.tablepaymentparagraph{
+    width: 60rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.status-completed {
+width: 28%;
+}
+
+.status-inprogress{
+ width: 28%;
+}
+
+.status-Cancelled {
+   width: 28%;
+}
+}
+
+
+
+@media (max-width:1200px) {
+    
+ .custom-table-payment td {
+     font-size: 13px;
+    padding: 7px 41px 7px 44px;
+   
+}
+.head
+{
+    background-color: #28981E;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+.head th{
+    padding: 9px 55px 9px 41px;
+    font-size: 14px;
+
+} 
+.tablepaymentparagraph{
+    width: 45.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+}
+@media (max-width:1000px) {
+    
+ .custom-table-payment td {
+     font-size: 13px;
+    padding: 7px 41px 7px 44px;
+   
+}
+.head
+{
+    background-color: #28981E;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+.head th{
+    padding: 9px 55px 9px 41px;
+    font-size: 14px;
+
+} 
+.tablepaymentparagraph{
+    width: 50rem;
+    display: flex;
+    justify-content: space-between;
+}
+.tablepaymentparagraph{
+    width: 45rem;
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+@media (max-width:950px) {
+
+.tablepaymentparagraph{
+    width: 38rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+}
+@media (max-width:800px) {
+
+.tablepaymentparagraph{
+    width: 27rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.image {
+    width: 70px;
+    height: 70px;
+}
+.status-completed {
+width: 50%;
+ border-radius: 5px;
+
+}
+
+.status-inprogress{
+width: 50%;
+ border-radius: 5px;
+
+}
+
+.status-Cancelled {
+width: 50%;
+ border-radius: 5px;
+
+}
+
+}
+
+@media (max-width:480px) {
+
+.tablepaymentparagraph{
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.image {
+    width: 40px;
+    height: 40px;
+}
+
+}
+@media (max-width:330px) {
+
+.tablepaymentparagraph{
+    width: 17rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.image {
+    display: none;
+    /* width: 30px;
+    
+    height: 30px; */
+}
+
+}

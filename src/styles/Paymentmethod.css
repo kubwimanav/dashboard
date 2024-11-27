@@ -1,0 +1,140 @@
+.payment-method{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.paymentmethod-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(37,43,49); 
+     width: 41rem;
+     border-radius: 10px;
+     padding: 40px 2px 40px 2px;
+     gap: 7px;
+}
+.paymentmethod-card p{
+    font-size: 15px;
+}
+.payment-input-imag{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.payment-input-imag img{
+    width: 70px;
+    height: 70px;
+    border-radius: 3px;
+}
+.payment-method-button{
+    width: 35%;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color:#4CAF50;
+
+}
+
+.payment-method-button:hover{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    color:#4CAF50;
+
+}
+
+
+@media (max-width:1700px) {
+    .payment-method{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.paymentmethod-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(37,43,49); 
+     width: 33rem;
+     border-radius: 10px;
+     padding: 40px 2px 40px 2px;
+     gap: 5px;
+}
+.paymentmethod-card p{
+    font-size: 15px;
+}
+.payment-input-imag{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.payment-input-imag img{
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+}
+.payment-method-button{
+    width: 35%;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color:#4CAF50;
+
+}
+
+.payment-method-button:hover{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    color:#4CAF50;
+
+}
+
+}
+@media (max-width:650px) {
+ .paymentmethod-card{
+     width: 24.5rem;
+}   
+}
+@media (max-width:480px) {
+ .paymentmethod-card{
+     width: 20.5rem;
+    
+}  
+.payment-method-button{
+    width: 45%;
+} 
+.paymentmethod-card p{
+    font-size: 13px;
+}
+}
+
+@media (max-width:380px) {
+ .paymentmethod-card{
+     width: 18.5rem;
+    
+}  
+.payment-method-button{
+    width: 60%;
+} 
+.paymentmethod-card p{
+    font-size: 12px;
+}
+}
+
+@media (max-width:320px) {
+ .paymentmethod-card{
+     width: 16.2rem;
+    
+}  
+.payment-method-button{
+    width: 60%;
+} 
+.paymentmethod-card p{
+    font-size: 12px;
+}
+}

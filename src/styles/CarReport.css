@@ -1,0 +1,326 @@
+
+.listening{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 31px;
+}
+.activecard1-listening{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    gap: 5px;
+    background-color: rgb(37,43,49);
+    width: 250px;
+    gap: 5px;
+    height: 7rem;
+    font-size: 11px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.carimage{
+    width: 50%;
+    height: 6rem;
+}
+.activecard12-listening{
+    font-size: 13px;
+    display: flex;
+    gap: 20px;
+}
+.activecard-listening{
+    display: flex;
+    gap: 11px;
+}
+
+@media (max-width:1700px) {
+.activecard1-listening{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    gap: 5px;
+    background-color: rgb(37,43,49);
+    width: 205px;
+    gap: 5px;
+    height: 7rem;
+    font-size: 11px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+}
+
+@media (max-width:1500px) {
+
+.activecard1-listening{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    gap: 5px;
+    background-color: rgb(37,43,49);
+    width: 190px;
+    gap: 5px;
+    height: 5rem;
+    font-size: 11px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.activecard12-listening{
+    font-size: 13px;
+    display: flex;
+    gap: 10px;
+}
+.activecard1-listening img{
+    width: 40%;
+}
+
+.listening{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+}
+
+}
+
+
+@media (max-width:1340px) {
+
+.activecard1-listening{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    gap: 5px;
+    background-color: rgb(37,43,49);
+    width: 165px;
+    gap: 5px;
+    height: 5rem;
+    font-size: 11px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.activecard12-listening{
+    font-size: 12px;
+    display: flex;
+    gap: 6px;
+}
+.activecard-listening{
+    display: flex;
+    gap: 11px;
+}
+.activecard1-listening img{
+    width: 40%;
+}
+
+.listening{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+}
+
+}
+
+@media (max-width:1200px) {
+
+.activecard1-listening{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    gap: 5px;
+    background-color: rgb(37,43,49);
+    width: 179px;
+    gap: 5px;
+    height: 5rem;
+    font-size: 11px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.activecard12-listening{
+    font-size: 12px;
+    display: flex;
+    gap: 20px;
+}
+.activecard-listening{
+    display: flex;
+    gap: 11px;
+}
+.activecard1-listening img{
+    width: 45%;
+}
+
+.listening{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+}
+
+@media (max-width:1050px) {
+    .activecard1-listening{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    gap: 5px;
+    background-color: rgb(37,43,49);
+    width: 155px;
+    gap: 5px;
+    height: 5rem;
+    font-size: 11px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.activecard12-listening{
+    font-size: 10px;
+    display: flex;
+    gap: 10px;
+}
+.activecard-listening{
+    display: flex;
+    gap: 11px;
+}
+.activecard1-listening img{
+    width: 45%;
+}
+
+.listening{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+}
+@media (max-width:950px) {
+.activecard1-listening{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    gap: 5px;
+    background-color: rgb(37,43,49);
+    width: 175px;
+    gap: 5px;
+    height: 5rem;
+    font-size: 11px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.activecard12-listening{
+    font-size: 12px;
+    display: flex;
+    gap: 6px;
+}
+.activecard-listening{
+    display: flex;
+    gap: 11px;
+}
+.activecard1-listening img{
+    width: 40%;
+}
+
+.listening{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+
+}
+@media (max-width:650px) {
+
+.listening{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+
+.activecard1-listening{
+     display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    gap: 5px;
+    background-color: rgb(37,43,49);
+    width: 235px;
+    gap: 5px;
+    height: 7rem;
+    font-size: 11px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.activecard1-listening img{
+    width: 50%;
+}
+.activecard12-listening{
+    font-size: 17px;
+    display: flex;
+    gap: 10px;
+}
+
+} 
+@media (max-width:480px) {
+
+.listening{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+}
+
+.activecard1-listening{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37,43,49);
+    width: 290px;
+    gap: 5px;
+    height: 8rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.activecard1-listening img{
+    width: 50%;
+}
+.activecard12-listening{
+    font-size: 17px;
+    display: flex;
+    gap: 20px;
+}
+
+} 
+@media (max-width:360px) {
+
+.listening{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+}
+
+.activecard1-listening{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37,43,49);
+    width: 220px;
+    gap: 5px;
+    height: 8rem;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.activecard1-listening img{
+    width: 65%;
+}
+.activecard12-listening{
+    font-size: 13px;
+    display: flex;
+    gap: 20px;
+}
+
+}

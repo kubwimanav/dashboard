@@ -1,0 +1,90 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+.loginform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-login-input{
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    border: none;
+}
+.login-button-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.login-button-paragraph p{
+    font-size: 12px;
+}
+input{
+    color: black;
+}
+.login-btn{
+     padding: 10px 25px 10px 25px;
+     background-color: #28981E;
+     border: none;
+     border-radius: 5px;
+}
+.form-login-checkbox{
+    display: flex;
+    justify-content: space-between;
+}
+.login-register{
+    border-radius: 7px;
+    display: flex;
+    background-color: white;
+}
+
+.login-email-password{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.login-register-login{
+ border-radius: 7px;
+ padding: 13px 45px 13px 45px;
+  background-color: white;
+  color: #28981E;
+  border: none;
+}
+.active-login-button {
+  color: white;
+  background-color: #28981E;
+  border: none;
+}
+
+.forgot-password{
+    color: #28981E;
+    font-size: 11px;
+}
+.form-login-checkbox label{
+    font-size: 11px;
+}
+.login-rember{
+    display: flex;
+    justify-content: center;
+}
+.login-container-paragraph{
+ display: flex; 
+  gap: 2px;
+}
+.login-container-paragraph12{
+  color: #28981E;
+}
+.login-container-paragraph1{
+display: flex;
+ font-weight: bold;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+@media (max-width:1000px) {
+    
+}

@@ -1,0 +1,127 @@
+.accountform{
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+    height: 86%;
+    border-radius: 10px;
+     padding: 25px 62px 25px 62px;
+    background-color:rgb(37,43,49);
+}
+.account-input-label-par{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.account-inputlabel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.accountimage-button{
+    display: flex;
+    gap: 10px;
+}
+.accountprofile{
+     width: 40px;
+     background-image: url("/7xm 8.png");
+     background-size: cover; 
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 85%;
+     border-bottom: 3px solid rgb(51,93,184);
+     border-top: 3px solid rgb(40, 170, 40);
+     border-left: 3px solid rgb(40, 170, 40);
+     border-right: 3px solid rgb(51,93,184);
+     border-radius: 50%;
+     height: 40px;   
+}
+.profileacount{
+    width: 30px;
+    height: 30px;
+}
+.account-input-label{
+   display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.account-input-label label{
+    font-size: 13px;
+}
+.accountform input{
+    padding: 12px 40px 12px 40px;
+    border: none;
+    border-radius: 5px;
+}
+.account-input-label1{
+    display: flex;
+    gap: 30px;
+}
+.account-button{
+    display: flex;
+    gap: 10px;
+}
+.account-button1{
+    background-color:rgba(255,255,255);
+    color: rgb(40,152,30);
+    width: 5rem;
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+}
+.account-button2{
+    background-color: rgb(40,152,30);
+     width: 5rem;
+    padding: 6px;
+     border-radius: 5px;
+    padding: 3px;
+    border: none;
+}
+@media (max-width:1700px) {
+.account-input-label1{
+    display: flex;
+    gap: 7px;
+}
+.accountform{
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+    border-radius: 10px;
+     padding: 15px 17px 15px 17px;
+    background-color:rgb(37,43,49);
+}
+}
+
+
+@media (max-width:480px) {
+.account-input-label1{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.accountform{
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+    height: 86%;
+    border-radius: 10px;
+     padding: 10px 20px 10px 20px;
+    background-color:rgb(37,43,49);
+}
+}
+
+@media (max-width:320px) {
+.account-input-label1{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.accountform{
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+    height: 86%;
+    border-radius: 10px;
+     padding: 10px ;
+    background-color:rgb(37,43,49);
+}
+}
