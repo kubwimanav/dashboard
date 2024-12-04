@@ -86,7 +86,7 @@ export default class Example extends PureComponent {
           <div className="chartcard">
             <div className="chart-div1">
               <p className="chart-paragraph1">Recent transaction</p>
-              <Link to="payments" className="chart-paragraph2-view">
+              <Link to="/dashboard/payments" className="chart-paragraph2-view">
                 View all
               </Link>
             </div>
